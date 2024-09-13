@@ -1,16 +1,111 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+<title>HTML Assignment 3</title>
+<style>
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+	border-spacing:1px;
+}
 
+th, td {
+  padding: 1px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+</style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+<h1><center>HTML Assignment #3</center></h1>
+
+
+<table id="table-1" class="middle"  height="100px" width="600px">
+  <tr>
+    <td id="t11">left</td>
+    <td id="t12" class="center">center</td>
+    <td id="t13" class="right">right</td>
+  </tr>
+  <tr>
+    <td class="left">left</td>
+    <td class="center">center</td>
+    <td class="right">right</td>
+  </tr>
+  <tr>
+    <td class=left>left</td>
+    <td class="center">center</td>
+    <td class="right">right</td>
+  </tr>
+</table>
+<br>
+	<br>
+<table id="table-2" class="middle" height="100px" width="600px">
+  <tr>
+    <td id="t21" colspan="6"></td>
+  </tr>
+  <tr >
+    <td rowspan="4"></td>
+    <td></td>
+    <td ></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+	
+  <tr>
+    <td></td>
+    
+    <td colspan="3" rowspan=2></td>
+	  <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td  colspan="6"></td>
+  </tr>
+
+</table>
+
+<br> <Br>
+<table id="table-3" class="middle"  height="100px" width="600px">
+  <tr class="green">
+    <td colspan="2"></td>
+  </tr>
+  <tr>
+	  <center>
+		  
+    <td id="t-image" class="center" ><img  src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="Michael Jordan Dunk" ></td>
+  </center>
+  </tr>
+  <tr class="blue">
+    <td colspan="2"></td>
+  </tr>
+</table>
 
 </body>
-
 </html>
